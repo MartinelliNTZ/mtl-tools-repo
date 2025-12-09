@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-    <pyqgis_plugin name="MTL Tools" version="1.0.0">
-        <description>Ferramentas MTL para exportação de todos os layouts.</description>
-        <about>Plugin criado por Matheus Martinelli</about>
-        <version>1.0.0</version>
-        <qgis_minimum_version>3.0</qgis_minimum_version>
-        <qgis_maximum_version>3.99</qgis_maximum_version>
-        <download_url>https://raw.githubusercontent.com/MartinelliNTZ/mtl-tools-repo/main/MTL_Tools.zip</download_url>
-        <homepage>https://github.com/MartinelliNTZ/mtl-tools-repo</homepage>
-        <category>Plugins</category>
-        <icon>icon.png</icon>
-        <author>Matheus Martinelli</author>
-    </pyqgis_plugin>
+  <pyqgis_plugin name="MTL Tools" version="1.1.0">
+    <description>Ferramentas para exportação em lote e substituição massiva de textos em layouts.</description>
+    <about>Automatiza exportações, substituições e processos repetitivos envolvendo layouts.</about>
+    <version>1.1.0</version>
+    <qgis_minimum_version>3.10</qgis_minimum_version>
+    <qgis_maximum_version>3.99</qgis_maximum_version>
+    <download_url>https://raw.githubusercontent.com/MartinelliNTZ/mtl-tools-repo/main/MTL_Tools.zip</download_url>
+    <homepage>https://github.com/MartinelliNTZ/mtl-tools-repo</homepage>
+    <tracker>https://github.com/MartinelliNTZ/mtl-tools-repo/issues</tracker>
+    <icon>icons/mtl_tools_icon.png</icon>
+    <category>Layout</category>
+    <tags>layout,export,pdf,png,text,replace,automation</tags>
+    <author>Matheus Martinelli</author>
+    <changelog>
+        1.1.0 - Replace Text in Layouts com backup e log automático.
+        1.0.0 - Export All Layouts (PDF/PNG).
+    </changelog>
+  </pyqgis_plugin>
 </plugins>
-
