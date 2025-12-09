@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+    <pyqgis_plugin name="MTL Tools" version="1.0.0">
+        <description>Ferramentas MTL para exportação de todos os layouts.</description>
+        <about>Plugin criado por Matheus Martinelli</about>
+        <version>1.0.0</version>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99</qgis_maximum_version>
+        <download_url>https://github.com/MartinelliNTZ/mtl-tools-repo/MTL_Tools.zip</download_url>
+        <homepage>https://github.com/MartinelliNTZ/mtl-tools-repo</homepage>
+        <category>Plugins</category>
+        <icon>icon.png</icon>
+        <author>Matheus Martinelli</author>
+    </pyqgis_plugin>
+</plugins>
