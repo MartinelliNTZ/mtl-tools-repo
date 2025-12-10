@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="MTL Tools" version="1.1.0">
+  <pyqgis_plugin name="MTL Tools" version="1.1.1">
     <description>Ferramentas para exportação em lote e substituição massiva de textos em layouts.</description>
     <about>Automatiza exportações, substituições e processos repetitivos envolvendo layouts.</about>
     <version>1.1.1</version>
@@ -20,5 +20,6 @@
     </changelog>
   </pyqgis_plugin>
 </plugins>
+
 
 
