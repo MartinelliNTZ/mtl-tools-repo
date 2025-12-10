@@ -14,8 +14,10 @@
     <tags>layout,export,pdf,png,text,replace,automation</tags>
     <author>Matheus Martinelli</author>
     <changelog>
+        1.1.1 - Restart Qgis tool
         1.1.0 - Replace Text in Layouts com backup e log automático.
         1.0.0 - Export All Layouts (PDF/PNG).
     </changelog>
   </pyqgis_plugin>
 </plugins>
+
