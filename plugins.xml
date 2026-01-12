@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
   <pyqgis_plugin name="MTL Tools" version="1.2.6">
-    <description>Ferramentas avançadas para exportação em lote, substituição massiva de textos e automação de tarefas em layouts do QGIS.</description>
-    <about>Plugin MTL Tools para automatizar exportações, substituições e processos repetitivos em layouts de impressão, além de oferecer ferramentas auxiliares de processamento para fluxos cartográficos.</about>
-    <version>1.2.6</version>
+    <description>Conjunto de ferramentas avançadas para QGIS voltado à automação de layouts, processamento vetorial e raster, análises estatísticas e otimização de fluxos cartográficos.</description>
+    <about>Plugin MTL Tools para exportação em lote de layouts, substituição massiva de textos, estatísticas de atributos, amostragem de rasters, cálculos automáticos de diferenças entre campos e consultas de coordenadas/altimetria, agilizando tarefas repetitivas e fluxos de trabalho.</about>
+     <version>1.2.6</version>
     <qgis_minimum_version>3.10</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
     <download_url>https://raw.githubusercontent.com/MartinelliNTZ/mtl-tools-repo/main/MTL_Tools.zip</download_url>
     <homepage>https://github.com/MartinelliNTZ/mtl-tools-repo</homepage>
     <tracker>https://github.com/MartinelliNTZ/mtl-tools-repo/issues</tracker>
     <icon>icons/mtl_tools_icon.png</icon>
-    <category>Layout</category>
-    <tags>layout,export,pdf,png,automation,replace,text,processing,qgis</tags>
-    <author>Matheus Martinelli</author>
+    <category>Layout,Processing,Automation</category>
+    <tags>layout,export,pdf,png,automation,replace,text,processing,raster,vector,statistics,altimetry,coordinates,qgis</tags>
+     <author>Matheus Martinelli</author>
     <changelog>
         updated at 12/01/2026 18:21
         1.2.6 - UI reorganization, About menu, tool instructions, icon fixes, UTM zone and elevation by map click.
@@ -29,6 +29,7 @@
     </changelog>
   </pyqgis_plugin>
 </plugins>
+
 
 
 
