@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
   <pyqgis_plugin name="MTL Tools" version="1.2.6">
-    <description>Ferramentas para exportação em lote e substituição massiva de textos em layouts.</description>
-    <about>Automatiza exportações, substituições e processos repetitivos envolvendo layouts.</about>
+    <description>Ferramentas avançadas para exportação em lote, substituição massiva de textos e automação de tarefas em layouts do QGIS.</description>
+    <about>Plugin MTL Tools para automatizar exportações, substituições e processos repetitivos em layouts de impressão, além de oferecer ferramentas auxiliares de processamento para fluxos cartográficos.</about>
     <version>1.2.6</version>
     <qgis_minimum_version>3.10</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
@@ -11,9 +11,10 @@
     <tracker>https://github.com/MartinelliNTZ/mtl-tools-repo/issues</tracker>
     <icon>icons/mtl_tools_icon.png</icon>
     <category>Layout</category>
-    <tags>layout,export,pdf,png,text,replace,automation</tags>
+    <tags>layout,export,pdf,png,automation,replace,text,processing,qgis</tags>
     <author>Matheus Martinelli</author>
     <changelog>
+        updated at 12/01/2026 18:21
         1.2.6 - UI reorganization, About menu, tool instructions, icon fixes, UTM zone and elevation by map click.
         1.2.5 - QGIS 3.16 compatibility updates, PDF/PNG export fixes, Python dependencies installer.
         1.2.4 - DEM Validator (initial and unstable implementation).
@@ -28,6 +29,7 @@
     </changelog>
   </pyqgis_plugin>
 </plugins>
+
 
 
 
