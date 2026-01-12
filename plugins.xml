@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="MTL Tools" version="1.2.3">
+  <pyqgis_plugin name="MTL Tools" version="1.2.6">
     <description>Ferramentas para exportação em lote e substituição massiva de textos em layouts.</description>
     <about>Automatiza exportações, substituições e processos repetitivos envolvendo layouts.</about>
-    <version>1.2.3</version>
-    <qgis_minimum_version>3.10</qgis_minimum_version>
+    <version>1.2.6</version>
+    <qgis_minimum_version>3.16</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
     <download_url>https://raw.githubusercontent.com/MartinelliNTZ/mtl-tools-repo/main/MTL_Tools.zip</download_url>
     <homepage>https://github.com/MartinelliNTZ/mtl-tools-repo</homepage>
@@ -14,12 +14,21 @@
     <tags>layout,export,pdf,png,text,replace,automation</tags>
     <author>Matheus Martinelli</author>
     <changelog>
-        1.1.1 - Restart Qgis tool
-        1.1.0 - Replace Text in Layouts com backup e log automático.
+        1.2.6 - UI reorganization, About menu, tool instructions, icon fixes, UTM zone and elevation by map click.
+        1.2.5 - QGIS 3.16 compatibility updates, PDF/PNG export fixes, Python dependencies installer.
+        1.2.4 - DEM Validator (initial and unstable implementation).
+        1.2.3 - Major processing refactor, statistics fixes, output CRS support, QGIS restart fix.
+        1.2.2 - General bug fixes and internal improvements.
+        1.2.1 - Bug fixes, statistics text field correction.
+        1.2.0 - New tools and processing algorithms, batch raster sampling, UI and replace improvements.
+        1.1.2 - Plugin UI tab, export stability fixes, PDF/PNG book generation, preferences support.
+        1.1.1 - Restart QGIS tool and Processing Provider.
+        1.1.0 - Replace Text in Layouts with automatic backup and detailed logging.
         1.0.0 - Export All Layouts (PDF/PNG).
     </changelog>
   </pyqgis_plugin>
 </plugins>
+
 
 
 
