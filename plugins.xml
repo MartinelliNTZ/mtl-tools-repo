@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="MTL Tools" version="1.2.7">
+  <pyqgis_plugin name="MTL Tools" version="1.3.0">
     <description>Conjunto de ferramentas avançadas para QGIS voltado à automação de layouts, processamento vetorial e raster, análises estatísticas e otimização de fluxos cartográficos.</description>
     <about>Plugin MTL Tools para exportação em lote de layouts, substituição massiva de textos, estatísticas de atributos, amostragem de rasters, cálculos automáticos de diferenças entre campos e consultas de coordenadas/altimetria, agilizando tarefas repetitivas e fluxos de trabalho.</about>
-     <version>1.2.7</version>
+     <version>1.3.0</version>
     <qgis_minimum_version>3.10</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
     <download_url>https://raw.githubusercontent.com/MartinelliNTZ/mtl-tools-repo/main/MTL_Tools.zip</download_url>
@@ -29,6 +29,7 @@
     </changelog>
   </pyqgis_plugin>
 </plugins>
+
 
 
 
